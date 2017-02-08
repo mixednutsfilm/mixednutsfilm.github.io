@@ -1,0 +1,1422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fro",
+				"for\tfor (…) {…}"
+			],
+			[
+				"filter",
+				"filterfilesfunction"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"onch",
+				"onchange"
+			],
+			[
+				"expre",
+				"expressProduction"
+			],
+			[
+				"cart",
+				"cart-clear-timer"
+			],
+			[
+				"removeBun",
+				"removeBundleLink"
+			],
+			[
+				"get",
+				"getIdbundle"
+			],
+			[
+				"car",
+				"cartBundleAction"
+			],
+			[
+				"line",
+				"lineID"
+			],
+			[
+				"curre",
+				"currentItemType"
+			],
+			[
+				"endf",
+				"endif"
+			],
+			[
+				"bundleI",
+				"bundledItem"
+			],
+			[
+				"updat",
+				"updateParam"
+			],
+			[
+				"els",
+				"elsif\telsif"
+			],
+			[
+				"bund",
+				"bundleIDupdate"
+			],
+			[
+				"main",
+				"mainProductSelector"
+			],
+			[
+				"express",
+				"expressProduction"
+			],
+			[
+				"LINEIN",
+				"LINEINDEX"
+			],
+			[
+				"aja",
+				"ajaxQueue"
+			],
+			[
+				"else",
+				"else\telse"
+			],
+			[
+				"ren",
+				"express_production_render"
+			],
+			[
+				"expr",
+				"express_product"
+			],
+			[
+				"en",
+				"endfor\tendfor"
+			],
+			[
+				"epx",
+				"express_product"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"asse",
+				"asset\tA snippet for using the liquid filter asset_url typically in combination with script_tag"
+			],
+			[
+				"ass",
+				"shopify_asset_url"
+			],
+			[
+				"whole",
+				"wholesale_form"
+			],
+			[
+				"br",
+				"br\tTag"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"produ",
+				"product-detail"
+			],
+			[
+				"produc",
+				"product_detail_in_block"
+			],
+			[
+				"disable",
+				"disable_Add_to_cart"
+			],
+			[
+				"bui",
+				"build_cart_shade"
+			],
+			[
+				"mf",
+				"Manufacture"
+			],
+			[
+				"inv",
+				"inventory_quantity"
+			],
+			[
+				"inven",
+				"inventory_quantity"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"nav",
+				"nav"
+			],
+			[
+				"inve",
+				"inventory_quantity"
+			],
+			[
+				"top",
+				"top-sellers"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font_col_nav",
+				"font_col_nav_hov"
+			],
+			[
+				"font_col_",
+				"font_col_nav_hov"
+			],
+			[
+				"sub",
+				"subscribe-form"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"zoo",
+				"zoomOptions"
+			],
+			[
+				"product_",
+				"product_detail_in_block"
+			],
+			[
+				"resp",
+				"responsiveBaseWidth"
+			],
+			[
+				"addCl",
+				"addClassActive"
+			],
+			[
+				"navi",
+				"navigationText"
+			],
+			[
+				"owl",
+				"owlcarousel"
+			],
+			[
+				"remove",
+				"removeData"
+			],
+			[
+				"elev",
+				"elevateZoom"
+			],
+			[
+				"gallery",
+				"galleryActiveClass"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"proe",
+				"productlabel"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"asset",
+				"asset_url"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"img",
+				"img_url"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mas",
+				"masthead_navigation_location"
+			],
+			[
+				"page",
+				"page-header"
+			],
+			[
+				"mash",
+				"masthead_offest"
+			],
+			[
+				"inp",
+				"input\tTag"
+			],
+			[
+				"sl",
+				"slideshow"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"g",
+				"get"
+			],
+			[
+				"re",
+				"req\trequire \"..\""
+			],
+			[
+				"mult",
+				"multiColumn"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"overfl",
+				"overflow-y"
+			],
+			[
+				"cat_",
+				"cat_array_all_tags_size"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"note",
+				"note-taking"
+			],
+			[
+				"projec",
+				"project"
+			],
+			[
+				"krik",
+				"krikkitship"
+			],
+			[
+				"proje",
+				"project"
+			],
+			[
+				"deb",
+				"debugger"
+			],
+			[
+				"funct",
+				"Function"
+			],
+			[
+				"deliv",
+				"deliveryCartTotal"
+			],
+			[
+				"del",
+				"deliveryItemId"
+			],
+			[
+				"deli",
+				"deliveryItem"
+			],
+			[
+				"upd",
+				"update"
+			],
+			[
+				"master",
+				"masterItem"
+			],
+			[
+				"preven",
+				"preventDefault"
+			],
+			[
+				"vari",
+				"variantId"
+			],
+			[
+				"de",
+				"matching_delivery_item"
+			],
+			[
+				"move",
+				"moveAlong"
+			],
+			[
+				"d",
+				"delivery"
+			],
+			[
+				"Produ",
+				"ProductsArray"
+			],
+			[
+				"pro",
+				"productDelivery"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"sch",
+				"Schedulable"
+			],
+			[
+				"S",
+				"Schedulable"
+			],
+			[
+				"buil",
+				"buildTimeString"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"optio",
+				"option2"
+			],
+			[
+				"options",
+				"options"
+			],
+			[
+				"time",
+				"timeApiCallback"
+			],
+			[
+				"Prod",
+				"Product"
+			],
+			[
+				"Shop",
+				"ShopifyAPI"
+			],
+			[
+				"arr",
+				"arr_of_arrs"
+			],
+			[
+				"about",
+				"about-nav"
+			],
+			[
+				"firs",
+				"first-child"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "changes",
+		"selected_items":
+		[
+			[
+				"changes",
+				"Change List: Show"
+			],
+			[
+				"pkg ctrl",
+				"Package Control: Discover Packages"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"emmet comm",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"prety",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"ememet",
+				"Emmet: Rename Tag"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emmet",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"html",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"emm mat",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"css ",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"liquid",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"kay",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"liq",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"ass",
+				"Snippet: A snippet for using the liquid filter asset_url typically in combination with script_tag"
+			],
+			[
+				"asse",
+				"Snippet: A snippet for using the liquid filter asset_url typically in combination with script_tag"
+			],
+			[
+				"asset",
+				"Snippet: A snippet for using the liquid filter asset_url typically in combination with script_tag"
+			],
+			[
+				"Snippet: ass",
+				"Snippet: A snippet for using the liquid filter asset_url typically in combination with script_tag"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"mini",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"line end",
+				"Line Ending to all views: Windows"
+			],
+			[
+				"line en",
+				"Line Endings: List the Line Endings of All Files in the Project"
+			],
+			[
+				"line",
+				"Line Endings Unify"
+			],
+			[
+				"pkg ctr",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bookm",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"bookmar",
+				"SublimeBookmarks: Goto Next Bookmark"
+			],
+			[
+				"pkgctrl",
+				"Package Control: Disable Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"redi",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"bmks",
+				"SublimeBookmarks: Goto Next Bookmark"
+			],
+			[
+				"bookmark",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"bookmar rem",
+				"SublimeBookmarks: Remove All Bookmarks (Clear Bookmarks)"
+			],
+			[
+				"bkm to",
+				"Bookmarks: Toggle"
+			],
+			[
+				"bkm tog",
+				"Bookmarks: Toggle"
+			],
+			[
+				"toggle",
+				"Bookmarks: Toggle"
+			],
+			[
+				"pkgcon",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pref",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"prefer",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"bmakr",
+				"SublimeBookmarks: Goto Next Bookmark"
+			],
+			[
+				"mark",
+				"Bookmarks: Toggle"
+			],
+			[
+				"bookgo",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"matchi",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"go",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"redin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"boo",
+				"SublimeBookmarks: Remove A Bookmark"
+			],
+			[
+				"bookmakr",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"encod",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"syntax:ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"bookma",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ma",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"packag",
+				"Package Control: Discover Packages"
+			],
+			[
+				"match",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"mat",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"pk",
+				"Package Control: Install Package"
+			],
+			[
+				"pkg",
+				"Package Control: List Packages"
+			],
+			[
+				"bookb",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"shop",
+				"Shopify: Edit asset"
+			],
+			[
+				"bookmarks",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"shopif",
+				"Shopify: Edit asset"
+			],
+			[
+				"pkgctrlin",
+				"Package Control: Install Package"
+			],
+			[
+				"packa ctrl",
+				"Package Control: Install Package"
+			],
+			[
+				"shopi",
+				"Shopify: Edit asset"
+			],
+			[
+				"shopify",
+				"Shopify: Edit asset"
+			],
+			[
+				"pak ctr",
+				"Package Control: Install Package"
+			],
+			[
+				"sho",
+				"Shopify: Edit asset"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"pack ctrl",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 111.0,
+		"history":
+		[
+			"find",
+			"find . -name \"*.sublime-menu\" -exec grep -H 'mnemonic\\\": \"w\"' {} \\;",
+			"cls",
+			"console.clear()",
+			"clear()",
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Sites/mixednuts/www"
+	],
+	"file_history":
+	[
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex9.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex8.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex7.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/filterfiles.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex6.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex5.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex4.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex3.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex2.js",
+		"/C/Users/Diogenes/Documents/code/learnyounode/programex1.js",
+		"/C/Sites/justjamiescarves.com/snippets/ajax-cart-template.liquid",
+		"/C/Sites/justjamiescarves.com/assets/ajax-cart.js.liquid",
+		"/C/Sites/justjamiescarves.com/config/settings_data.json",
+		"/C/Sites/justjamiescarves.com/locales/en.default.json",
+		"/C/Sites/justjamiescarves.com/config/settings_schema.json",
+		"/C/Sites/justjamiescarves.com/templates/cart.liquid",
+		"/C/Sites/justjamiescarves.com/snippets/wholesale_configs.liquid",
+		"/C/Sites/justjamiescarves.com/config.yml",
+		"/C/Sites/justjamiescarves.com/assets/stylesheet.css.liquid",
+		"/C/Sites/justjamiescarves.com/snippets/homepage-slideshow.liquid",
+		"/C/Sites/justjamiescarves.com/snippets/order-form.liquid",
+		"/C/Sites/justjamiescarves.com/layout/theme.liquid",
+		"/C/Sites/justjamiescarves.com/templates/collection.order-form.liquid",
+		"/C/Sites/ballardbats.com/layout/theme.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/order.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/addresses.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/account.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/reset_password.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/login.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/activate_account.liquid",
+		"/C/Sites/justjamiescarves.com/templates/customers/register.liquid",
+		"/C/Sites/ruffideas.com/templates/product.liquid",
+		"/C/Sites/ruffideas.com/layout/theme.liquid",
+		"/C/Sites/ruffideas.com/config.yml",
+		"/C/Sites/ballardbats.com/config.yml",
+		"/C/Sites/ballardbats.com/assets/js_scripts.dev.js",
+		"/C/Sites/ballardbats.com/templates/cart.liquid",
+		"/C/Sites/ballardbats.com/templates/product.liquid",
+		"/C/Sites/ballardbats.com/snippets/product_express_production.liquid",
+		"/C/Users/Diogenes/Documents/Projects/_projects Soft-Dev/shopify/Shopify CaaP/customizations/Bundling/shopify bundling implemetation guide.txt",
+		"/C/Sites/ballardbats.com/config/settings_data.json",
+		"/C/Sites/ballardbats.com/assets/js_scripts.min.js",
+		"/C/Sites/ballardbats.com/snippets/blog_tags.liquid",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Sites/ballardbats.com/config/settings_schema.json",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Sites/ballardbats.com/snippets/asset_svg.liquid",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Sites/elimadent/.scratchpad.liquid",
+		"/C/Sites/elimadent/templates/page.wholesale_agreement.liquid",
+		"/C/Sites/elimadent/config.yml",
+		"/C/Sites/elimadent/elimadent.sublime-workspace",
+		"/C/Sites/elimadent/assets/formilla.js",
+		"/C/Sites/elimadent/assets/styles.css.liquid",
+		"/C/Sites/elimadent/layout/theme.liquid",
+		"/C/Sites/elimadent/templates/index.liquid",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/User/liquid_asset_url.sublime-snippet",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Sites/elimadent/assets/checkout.css.liquid",
+		"/C/Sites/elimadent/assets/jquery.cart.min.js",
+		"/C/Sites/elimadent/config/settings_data.json",
+		"/C/Sites/elimadent/config/settings_schema.json",
+		"/C/Sites/elimadent/locales/en.default.json",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Diogenes/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Sites/elimadent/.includes_and_structure_notes.liquid",
+		"/C/Users/Diogenes/Documents/Projects/_jobs/2015-10-12 elimadent.com/_files/elimadent - distributor and dealer advertised price agreement html table.txt",
+		"/C/Users/Diogenes/Documents/Projects/_jobs/2015-10-12 elimadent.com/_files/elimadent - distributor and dealer advertised price agreement plain text with javascript hooks.txt",
+		"/C/Users/Diogenes/Documents/Projects/_jobs/2015-10-12 elimadent.com/_files/elimadent - distributor and dealer advertised price agreement plain text.txt",
+		"/C/Users/Diogenes/Documents/Projects/_jobs/2015-10-12 elimadent.com/_files/elimadent - distributor and dealer advertised price agreement html table.liquid",
+		"/C/Sites/elimadent/templates/page.contact.liquid",
+		"/C/Sites/elimadent/templates/page.liquid",
+		"/C/Sites/elimadent/snippets/product-label.liquid",
+		"/C/Sites/elimadent/assets/main.js.liquid",
+		"/C/Sites/elimadent/config/settings.html",
+		"/C/Sites/elimadent/snippets/limespot-custom-css.liquid",
+		"/C/Sites/elimadent/snippets/product-detail.liquid",
+		"/C/Sites/elimadent/snippets/product-block.liquid",
+		"/C/Sites/elimadent/templates/product.liquid",
+		"/C/Sites/elimadent/templates/page.contact-centered.liquid",
+		"/C/Sites/elimadent/snippets/limespot-custom-css_latest-original.liquid",
+		"/C/Sites/elimadent/templates/customers/login.liquid",
+		"/C/Sites/elimadent/templates/customers/order.liquid",
+		"/C/Sites/elimadent/templates/collection.liquid",
+		"/C/Sites/elimadent/assets/ssnpopup.js",
+		"/C/Sites/elimadent/snippets/product-list.liquid",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/shopify_inventory_debug_product.sublime-snippet",
+		"/C/Sites/elimadent/snippets/main-navigation.liquid",
+		"/C/Sites/elimadent/snippets/sidebar.liquid",
+		"/C/Documents and Settings/ki/Desktop/settings_data.json",
+		"/C/Sites/elimadent/snippets/recursive-navigation-helper.liquid",
+		"/C/Sites/elimadent/assets/owl.carousel.js",
+		"/C/Sites/elimadent/snippets/brand-scroller.liquid",
+		"/C/Sites/elimadent/snippets/masthead-slider.liquid",
+		"/C/Sites/elimadent/snippets/footer.liquid",
+		"/C/Sites/elimadent/snippets/opengraph-tags.liquid",
+		"/C/Sites/elimadent/snippets/signup-form.liquid",
+		"/C/Sites/elimadent/templates/cart.liquid",
+		"/C/Sites/elimadent/templates/search.liquid",
+		"/C/Sites/elimadent/assets/jquery.flexslider-min.js",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Sites/elimadent/snippets/social-icons.liquid",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/Sublime Bookmarks.sublime-keymap",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/SublimeBookmarks/Default.sublime-keymap",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/SublimeBookmarks/Default.sublime-settings",
+		"/C/Documents and Settings/ki/Application Data/Sublime Text 2/Packages/User/Sublime Bookmarks.sublime-settings",
+		"/C/Sites/elimadent/snippets/social-sharing.liquid",
+		"/C/Sites/thatdressismine/layout/theme.liquid",
+		"/C/Sites/elimadent/elimadent.sublime-project",
+		"/C/Sites/elimadent/.git/gitignore",
+		"/C/?",
+		"/C/Sites/elimadent/.media-queries-list.css.liquid",
+		"/C/RailsInstaller/Ruby1.9.3/setup_environment.bat",
+		"/C/Sites/sinatra-apps/recall/views/layout.erb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"*.liquid",
+			"C:\\Sites\\ballardbats.com",
+			"C:\\Sites\\elimadent",
+			"",
+			"(1)",
+			"",
+			"<open files>",
+			"",
+			"E:\\mala"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"wholesale_prospect",
+			"_",
+			"video-embed",
+			"embed",
+			">>>>>>>",
+			"Stashed changes",
+			"<<<<<<< Updated upstream ======= >>>>>>> Stashed changes",
+			"fashion",
+			"20000",
+			"min",
+			"href=\"/account/login\"",
+			"Account",
+			"href=\"/account/login\"",
+			"4e9bc7f5f7e7cdda624894015cece7ce",
+			"password",
+			"4e9bc7f5f7e7cdda624894015cece7ce",
+			"  access_token: 4e9bc7f5f7e7cdda624894015cece7ce\n",
+			"access_token",
+			"just-jamie.myshopify",
+			"45158bbb9351149435e090e8935130b7",
+			"ballard-bat-company.myshopify.com",
+			"a297829c5084acb2dacb95b2dfa65234",
+			"javascript",
+			"checkout_bundled_item_LIP_text",
+			"mah",
+			"updates[]",
+			"line",
+			"TODO",
+			"express production",
+			"config",
+			"express_production_remove_link",
+			"capture",
+			"changeCart",
+			"display_express_production_option",
+			"remove",
+			"data",
+			"bundleIDupdate",
+			"bundleID",
+			"shopify.",
+			"Express Production",
+			"bundleID",
+			"_bundleID",
+			"price",
+			"#",
+			"removeBundleLink",
+			"changeCart",
+			"class",
+			"updates_",
+			"input",
+			"getIdbundle",
+			"action",
+			"getIdbundle",
+			"actionForQty",
+			"%}\n",
+			"testedItem != item and testedItem.properties._bundleID != item.properties._bundleID",
+			"currentLoopProduct",
+			"bundledItem",
+			"currentProduct",
+			"&",
+			"mainProductSelector",
+			".first_available_variant",
+			"first_available_variant.id ",
+			"price",
+			"continue",
+			"break",
+			"express_product",
+			"id",
+			"TODO",
+			"{% comment %}TODO noscript cart submission{% endcomment %}\n",
+			"{% comment %}TODO refactore express_product to be the first variant from the beginning{% endcomment %}\n",
+			"{% comment %}TODO nice to have parameterize snippet for: renderout, script, and{% endcomment %}\n",
+			"{% comment %}TODO optionally do a comparison of all LIPS between an express_production and baseball_bat, assuming the LIP's were submitted uniformly{% endcomment %}\n",
+			"{% comment %}TODO a conditional rule to have express production show{% endcomment %}\n",
+			"{% comment %}TODO Any removed express production needs to update a product to not have a bundleID{% endcomment %}\n",
+			"{% comment %}TODO associate specific express production with specific products|variants AND line items( e.g engraving){% endcomment %}\n",
+			"{% comment %}TODO associate specific express production with specific products|variants{% endcomment %}\n",
+			"{% comment %}TODO remove express production if no items in cart{% endcomment %}\n",
+			"{% comment %}TODO feature flag suppress express production if on the express production product page{% endcomment %}\n",
+			"{% comment %}TODO remove express production if associated bat is removed{% endcomment %}\n",
+			"{% comment %}TODO add express production to an item in the cart{% endcomment %}\n",
+			"{% comment %}TODO probably need to remove express_product{% endcomment %}\n",
+			"{% comment %}TODO don't show express production for specific types of products{% endcomment %}\n",
+			"{% comment %}a conditional rule to have express production show{% endcomment %}\n",
+			"{% comment %}TODO associate specific express production with specific products|variants AND line items( e.g engraving){% endcomment %}\n",
+			"{% comment %}TODO associate specific express production with specific products|variants{% endcomment %}\n",
+			"{% comment %}TODO remove express production if no items in cart{% endcomment %}\n",
+			"express",
+			"{% comment %}TODO feature flag suppress express production if on the express production product page{% endcomment %}\n",
+			"{% comment %}TODO remove express production if associated bat is removed{% endcomment %}\n",
+			"todo",
+			"fluro hot blush",
+			"p",
+			"expressProduction",
+			"debugger",
+			"addToCartText",
+			"submitText",
+			"cartQty",
+			"cartCount",
+			"Button",
+			"button",
+			"submitButton",
+			"submitText",
+			"bundleID",
+			"expressProduction",
+			"oldText",
+			"context",
+			"false",
+			"disabled",
+			"$button",
+			"fetchData",
+			"postExpressProduction",
+			"tray = $('select[name=tray_id]').val();",
+			"debugger",
+			"true",
+			");\n",
+			"onCartUpdate",
+			"case",
+			"\t\t\t",
+			"item",
+			"<label",
+			"label",
+			"inlcue",
+			"p",
+			"proper",
+			"ctrl+up",
+			"title",
+			"template"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			" '",
+			" ",
+			".resulst-box",
+			"masthead_slide_",
+			"masthead_",
+			"masthead_slide_",
+			"masthead_navigation_location",
+			"checked=\"checked\"",
+			"&#8623;",
+			"nav_mega_",
+			"nav_mega",
+			"",
+			",",
+			"",
+			"$1",
+			"",
+			",",
+			" ,",
+			" ",
+			"",
+			"$1",
+			"$&",
+			"$1",
+			"deliveryProductId",
+			"changedsize",
+			"CHANGED(newton)",
+			"",
+			"REFER"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 267.0
+	},
+	"pinned_build_system": "",
+	"project": "mixednuts-basic-website.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"conf",
+				"config.yml"
+			],
+			[
+				"con",
+				"snippets\\wholesale_configs.liquid"
+			],
+			[
+				"json",
+				"config\\settings_data.json"
+			],
+			[
+				"cart",
+				"templates\\cart.liquid"
+			],
+			[
+				"sett",
+				"config\\settings_schema.json"
+			],
+			[
+				"seet",
+				"assets\\stylesheet.css.liquid"
+			],
+			[
+				"config",
+				"snippets\\wholesale_configs.liquid"
+			],
+			[
+				"ajax",
+				"snippets\\ajax-cart-template.liquid"
+			],
+			[
+				"settin",
+				"config\\settings_data.json"
+			],
+			[
+				"c",
+				"config.yml"
+			],
+			[
+				"confi",
+				"snippets\\wholesale_configs.liquid"
+			],
+			[
+				"order",
+				"templates\\collection.order-form.liquid"
+			],
+			[
+				"customer",
+				"templates\\customers\\order.liquid"
+			],
+			[
+				"scripin",
+				"assets\\js_scripts.min.js"
+			],
+			[
+				"produ",
+				"templates\\product.liquid"
+			],
+			[
+				"asset",
+				"snippets\\asset_svg.liquid"
+			],
+			[
+				"produc",
+				"templates\\product.liquid"
+			],
+			[
+				"whole",
+				"templates\\page.wholesale_agreement.liquid"
+			],
+			[
+				"co",
+				"config.yml"
+			],
+			[
+				"them",
+				"layout/theme.liquid"
+			],
+			[
+				"theme",
+				"layout/theme.liquid"
+			],
+			[
+				"jquery",
+				"assets/jquery.cart.min.js"
+			],
+			[
+				"checkou",
+				"assets/checkout.css.liquid"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Sites/tennerstore/tennerstore.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
