@@ -1,0 +1,106 @@
+//_TODO.scss 
+ /* a SASS lang partial
+
+	for your TODO list make an html of similar too:
+	 #TODO>element>input[type=checkbox]{textContent}
+	in your SASS CSS use:
+		@import 'partials/_TODO';
+
+*/
+
+/*#TODO { background-color: green;}*/
+#TODO {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    transform: scale(50% 50%); 
+}
+#TODO ul, #TODO ol { list-style:none; }
+#TODO ul li, #TODO ol li { width: auto; }
+
+	.paper {
+	    font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
+	    width: 90%;
+	    margin: 0 auto 10px;
+	    padding: 1%;
+	    /*padding: 6px 5px 4px 42px;*/
+	    position: relative;
+	    color: #444;
+	    line-height: 20px;
+	    border: 1px solid #d2d2d2;
+	 
+	    background: #fff;
+	    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+	    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	    background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	    background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	    background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	    background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	 
+	    -webkit-background-size: 100% 20px;
+	    -moz-background-size: 100% 20px;
+	    -ms-background-size: 100% 20px;
+	    -o-background-size: 100% 20px;
+	    background-size: 100% 20px;
+	 
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	 
+	    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+	    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+	    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+	}
+	.paper::before {
+	    content: '';
+	    position: absolute;
+	    width: 4px;
+	    top: 0;
+	    left: 30px;
+	    bottom: 0;
+	    border: 1px solid;
+	    border-color: transparent #efe4e4;
+	}
+
+.curl{
+
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+.curl:before, .curl:after
+{
+	position: absolute;
+	width: 30%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.89);
+	z-index: -1;
+} 
+.curl:before { 
+	/*bottom:0; */
+/*to override .paper::before top:0 style*/
+top:initial;
+}
+.curl:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
