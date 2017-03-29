@@ -1,0 +1,208 @@
+/*structure
+	nav>ul>li6>a  nav>ul>li:first-child#logoingrid
+*/
+/* https://www.google.com/search?q=css+scale+element+children */
+/* https://css-tricks.com/scaled-proportional-blocks-with-css-and-javascript/  */
+#grid-hero-image {
+    /*display: none;*/
+    /* height: 200px; */
+    background-color: #faf4f3;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#grid-hero-image #logo-animated-text {
+    font-size: 8em;
+    line-height: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+#grid-hero-image .trigger {position: fixed;bottom: 20%;z-index: 101;border: none;background: transparent;cursor: pointer;}
+
+#container.modify #grid-hero-image { 
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+        -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+ }
+
+.header-container header {
+    min-height: 399px;
+
+}
+header > nav {
+    /* position: relative; */
+    margin: 0 auto;
+    /* min-height: 500px; */
+    width: 100%;
+}
+header > nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    z-index: 0;
+}
+header >nav>ul>li:hover {
+    /* TODO https://css-tricks.com/almanac/properties/f/filter/
+    filter: none; */
+    z-index: 11;
+    //
+    TODO specificity issue with hover and nth-child transforms
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transition: .3s linear;
+    filter: none;
+}
+header >nav>ul>li {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    filter: blur(1px) grayscale(100%);
+}
+/*TODO BUG this block causes a specificity issue greater than the rule for hover effects*/
+header >nav>ul>li:nth-child(2)::after
+, header >nav>ul>li:nth-child(3)::after
+,header >nav>ul>li:nth-child(4)::after
+,header >nav>ul>li:nth-child(5)::after
+,header >nav>ul>li:nth-child(6)::after {
+        /* background: rgba(125, 84, 19, 0.29); */
+        filter: gray;
+        -webkit-filter: grayscale(1);
+        /* -webkit-filter: grayscale(100%); */
+        filter: blur(20px) grayscale(20%);
+        grayscale(100%)            brightness(135%)           contrast(120%);: grayscale(100%)
+    }
+header >nav>ul>li:hover::after {
+    background: rgba(71, 63, 59, 0);
+}
+/*TODO does not work header >nav>ul>li::after:not(:first-child) { }*/
+header >nav>ul>li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    z-index: 0;
+    filter: grayscale(100%)             brightness(135%)            contrast(120%);
+}
+    
+header >nav>ul>li>a {
+    background: none;
+    position: relative;
+    left: 10%;
+    text-shadow: 1px 2px 0px #ffffff;
+    font-size: 2em;
+    /* padding-top: 50%; */
+    color: cornflowerblue;
+    bottom: 0%;
+    z-index: 11;
+}
+
+header >nav>ul>li:first-child {
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 25%;
+    position: absolute;
+    background-image: none;
+    /* padding-top: 3%; */
+    filter:none;
+}
+/* support http://caniuse.com/#feat=css-sel3 */
+header >nav>ul>li:nth-child(2) {
+    top: 85%;
+    left: 0;
+    height: 15%;
+    width: 25%;
+    background-image: url('../img/placeholder.png');
+    text-align: center;
+    background-size: cover;
+}
+header >nav>ul>li:nth-child(3) { 
+    top: 0%;
+    left: 25%;
+    height: 100%;
+    width: 25%;
+    background-image: url('../img/placeholder.png');
+}
+header >nav>ul>li:nth-child(4) {
+ top: 0%;
+ left: 50%;
+ height: 65%;
+ width: 50%;
+ background-image: url('../img/20170323_202128_1080x608.jpg');
+ transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+header >nav>ul>li:nth-child(5) {
+ top: 65%;
+ left: 50%;
+ height: 35%;
+ width: 40%;
+ background-image: url('../img/table_cropped.jpg');
+}
+header >nav>ul>li:nth-child(6) {
+ top: 65%;
+ left: 90%;
+ height: 35%;
+ width: 10%;
+ background-image: url('../logo.jpg');
+ background-size: contain;
+ font-size: 0.8em;
+}
+
+#logo-animated-text {
+    margin-top: 3%;
+}
+#logo-animated-text.mixednuts{
+    padding: 25%;
+}
+/* Doesn't work? body:hover #logo-animated-text.mixednuts */ 
+/* #logo-animated-text:hover.mixednuts{ */
+ 
+ body:hover #logo-animated-text.mixednuts  {
+    transition: padding 1.8s ease;
+    padding:5%;
+    }
+@keyframes mixednuts {
+      from, 0%, to {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    2.2% {
+        padding: 25%;
+    }
+
+}
+
+.mixednuts {
+  -webkit-animation-name: mixednuts;
+  animation-name: mixednuts;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}

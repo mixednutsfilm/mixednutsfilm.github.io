@@ -1,0 +1,93 @@
+/* http://code.stephenmorley.org/html-and-css/the-myth-of-web-safe-fonts/
+	wide sans-serif stack: 
+	font-family:Verdana,Geneva,sans-serif;
+	narrow sans-serif stack: font-family:Helvetica,Arial,sans-serif;
+	wide serif stack: font-family:Georgia,Utopia,Charter,serif;
+	narrow serif stack: font-family:'Times New Roman',Times,serif;
+	monospace stack: font-family:'Courier New',Courier,monospace;
+
+ */
+ /* TODO font pairing Stalemate (#580404 or #fea50b ) & Lato ??? */
+	$body-font-family: "Courier New",Courier,monospace;  /*#{$body-font-family}*/
+	$nav-font-family: "Courier New",Courier,monospace;;  /*#{$nav-font-family}*/
+	$text-logo-font-family: "AR Christy",Impact,fantasy; /*#{$text-logo-font-family}*/
+	$headings-font-family: "AR Decode", Impact,fantasy,cursive	;  /*#{$headings-font-family}*/
+	$decorative-font-family: "AR Decode",cursive;  /*#{$decorative-font-family}*/
+
+	body {
+/*		color: $text-color;
+		font-size: $base-font-size;
+		font-family: $base-font-family;
+		font-weight: $base-font-weight;*/
+		line-height: 1.6;
+	}
+
+body {
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+body { font-family: $body-font-family; }
+.main article h1 {
+	font-size: 2em;
+}
+h1,h2,h3,h4,h5,h6 { font-family: $headings-font-family;}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+$start: 3em; 
+@each $h in h1, h2, h3, h4, h5, h6{
+	#{$h} { 
+		font-size: $start;
+	}
+		$start: $start - 0.25;
+}
+/* Web Safe
+The only "100%"[emphasis mine] safe way to declare fonts is to use generics as fall backs.
+The generics are:
+'serif' (e.g. Times)
+'sans-serif' (e.g. Helvetica)
+'cursive' (e.g. Zapf-Chancery)
+'fantasy' (e.g. Western) (wtf?)
+'monospace' (e.g. Courier)
+From the W3C: 
+	"All five generic font families are defined to exist in all CSS implementations (they need not necessarily map to five distinct actual fonts). User agents should provide reasonable default choices for the generic font families, which express the characteristics of each family as well as possible within the limits allowed by the underlying technology. 
+		Fonts such as Arial and Verdana which many web designers take for granted may not be present on Linux browsers (even firefox on centOS from experience). Apple has most of the Microsoft fonts but there are some which are absent."
+
+@see http://kv5r.com/web-dev/the-new-font-family/
+@see paulirish.com/lovesyou/web-safe-fonts-cheat-sheet-v1.pdf
+
+*/
+/* Monospaced fonts
+pre, code, kbd, samp, tt{font-family:monospace,monospace; font-size:1em; } http://code.stephenmorley.org/html-and-css/fixing-browsers-broken-monospace-font-handling/
+ */
+
+/*
+ The keyword value normal maps to the numeric value 400 and the value bold maps to numeric value 700.
+font-weight:lighter;
+font-weight:normal;
+font-weight:bold;
+font-weight:bolder;
+
+100 Extra Light or Ultra Light
+200 Light or Thin
+300 Book or Demi
+400 Normal or Regular
+500 Medium
+600 Semibold, Demibold
+700 Bold
+800 Black, Extra Bold or Heavy
+900 Extra Black, Fat, Poster or Ultra Black
+Common fonts like Arial, Helvetica, Georgia, etc. do not have weights other than 400 and 700.
+@see https://thebittheories.com/my-font-has-gained-a-lot-of-weight-522e8bb473b7
+ */
+
+/*
+Curly Quotes! Use character entities so your quotation marks are curly: &ldquo; (left) &rdquo; (right)
+*/
+/*
+	Further reading
+	http://stackoverflow.com/questions/1003176/what-are-good-web-development-fonts
+	http://www.webdesigndev.com/16-gorgeous-web-safe-fonts-to-use-with-css/
+	https://www.godaddy.com/garage/smallbusiness/launch/cheat-sheet-mobile-email-design/
+*/

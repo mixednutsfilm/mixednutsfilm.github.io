@@ -1,0 +1,52 @@
+/* @boilerplate Flexbox http://caniuse.com/#feat=flexbox
+    bugs and workarounds - https://github.com/philipwalton/flexbugs
+  .flexbox {
+    //In IE10 the default value for flex is '0 0 auto' rather than '0 1 auto' as defined in the latest spec.
+    display: flex;
+    flex-basis: content; //Automatically size based on the flex item’s content
+    flex-basis: 1em; flex: 1 0 0%; // IE 11 requires a unit to be added to the third argument, the flex-basis property
+    // IE 11 does not vertically align items correctly when min-height is used
+
+  }
+*/
+/*Responsive Widths
+ The divs inside the main_container are made responsive by setting width in %, not pixels. Put Columns Side-by-Side Using the float property. For example:
+    #intro_column{
+        float:left;
+    }
+*/
+/*Total Width 
+    Must be Less Than 100% The left margin, left padding, width, right padding, and right margin of all elements in a row must equal 100% or less. Otherwise, they won’t fit, and the last element will fall to the next row. Recommendation: don’t set right margin.
+    Let the “left over” space act as the right margin. Main_container{overflow:hidden;} Otherwise, when internal (aka “child”) elements float, the main_container won’t recognize them, and will look too short.
+    Columns Equal Height 
+    Add a large amount of padding-bottom (e.g., 999px), then a negative amount of marginbottom (-999px). Note: This only works if the main_container containing the columns is set to overflow:hidden;
+*/
+/*vw Units
+If you need a vertical space (height) to be responsive and similar to a horizontal space (width), try using vw units for the height. 1 vw is equal to 1/100 of the viewport width.
+ Thus it is equal to 1% of the width of the viewport. Note: once the viewport is bigger than the main_container, 1vw (1/100 of the viewport) is no longer equal to 1% (1/100 of the main_container).
+*/
+/*Make Mobile Responsive
+Tell mobile device to use a viewport equal to their device width by including this line of syntax in the head of the document
+  <head> <meta name="viewport"content="width=device-width"> </head>
+*/
+
+/*Use respond-min.js for EI6–8
+Help early Internet Explorer browsers read the max-width or min-width media queries by putting a copy of respond-min.js in a scripts file and putting this syntax immediately following the css line of syntax:
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="scripts/respond-min.js"></script>
+    <![endif]-->
+*/
+
+/*IMAGES
+Content Images
+Put an image in your “images” folder and use the following syntax in your HTML:
+ <img src="images/filename.jpg">
+
+Make Content Images Pseudo Responsive Use the following syntax in your CSS:
+img{
+ width:100%;
+}
+*/
+/*Floats
+http://stackoverflow.com/questions/1758484/why-is-my-container-div-not-containing-my-floated-elements
+*/

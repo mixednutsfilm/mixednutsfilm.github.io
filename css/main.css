@@ -1,4 +1,110 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+ /* a SASS lang partial
+
+	for your TODO list make an html of similar too:
+	 #TODO>element>input[type=checkbox]{textContent}
+	in your SASS CSS use:
+		@import 'partials/_TODO';
+
+*/
+/*#TODO { background-color: green;}*/
+@import url(animate.css);
+#TODO {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  transform: scale(50% 50%); }
+
+#TODO ul, #TODO ol {
+  display: none; }
+
+#TODO:hover ul, #TODO:hover ol {
+  display: none; }
+
+#TODO ul, #TODO ol {
+  list-style: none; }
+
+#TODO ul li, #TODO ol li {
+  width: auto; }
+
+.paper {
+  font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
+  width: 90%;
+  margin: 0 auto 10px;
+  padding: 1%;
+  /*padding: 6px 5px 4px 42px;*/
+  position: relative;
+  color: #444;
+  line-height: 20px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  -ms-background-size: 100% 20px;
+  -o-background-size: 100% 20px;
+  background-size: 100% 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
+
+.paper::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4; }
+
+.curl {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1); }
+
+.curl:before, .curl:after {
+  position: absolute;
+  width: 30%;
+  height: 10px;
+  content: ' ';
+  left: 12px;
+  bottom: 12px;
+  background: transparent;
+  -webkit-transform: skew(-5deg) rotate(-5deg);
+  -moz-transform: skew(-5deg) rotate(-5deg);
+  -ms-transform: skew(-5deg) rotate(-5deg);
+  -o-transform: skew(-5deg) rotate(-5deg);
+  transform: skew(-5deg) rotate(-5deg);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.89);
+  z-index: -1; }
+
+.curl:before {
+  /*bottom:0; */
+  /*to override .paper::before top:0 style*/
+  top: initial; }
+
+.curl:after {
+  left: auto;
+  right: 12px;
+  -webkit-transform: skew(5deg) rotate(5deg);
+  -moz-transform: skew(5deg) rotate(5deg);
+  -ms-transform: skew(5deg) rotate(5deg);
+  -o-transform: skew(5deg) rotate(5deg);
+  transform: skew(5deg) rotate(5deg); }
+
 /* =====branding====== */
 /*colors*/
 /*golden-orange #fe9604*/
@@ -16,96 +122,170 @@
 /*#9780ff*/
 /*#6900d3*/
 /*=====fonts=====*/
-/*courier*/
-/*courier*/
-/*cursive*/
-/*cursive*/
+/* http://code.stephenmorley.org/html-and-css/the-myth-of-web-safe-fonts/
+	wide sans-serif stack: 
+	font-family:Verdana,Geneva,sans-serif;
+	narrow sans-serif stack: font-family:Helvetica,Arial,sans-serif;
+	wide serif stack: font-family:Georgia,Utopia,Charter,serif;
+	narrow serif stack: font-family:'Times New Roman',Times,serif;
+	monospace stack: font-family:'Courier New',Courier,monospace;
+
+ */
+/* TODO font pairing Stalemate (#580404 or #fea50b ) & Lato ??? */
+/*Courier New, Courier, monospace*/
+/*Courier New, Courier, monospace*/
+/*AR Christy, Impact, fantasy*/
+/*AR Decode, Impact, fantasy, cursive*/
+/*AR Decode, cursive*/
+body {
+  /*		color: $text-color;
+  		font-size: $base-font-size;
+  		font-family: $base-font-family;
+  		font-weight: $base-font-weight;*/
+  line-height: 1.6; }
+
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
+
+body {
+  font-family: "Courier New", Courier, monospace; }
+
+.main article h1 {
+  font-size: 2em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "AR Decode", Impact, fantasy, cursive; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.75em; }
+
+h3 {
+  font-size: 2.5em; }
+
+h4 {
+  font-size: 2.25em; }
+
+h5 {
+  font-size: 2em; }
+
+h6 {
+  font-size: 1.75em; }
+
+/* Web Safe
+The only "100%"[emphasis mine] safe way to declare fonts is to use generics as fall backs.
+The generics are:
+'serif' (e.g. Times)
+'sans-serif' (e.g. Helvetica)
+'cursive' (e.g. Zapf-Chancery)
+'fantasy' (e.g. Western) (wtf?)
+'monospace' (e.g. Courier)
+From the W3C: 
+	"All five generic font families are defined to exist in all CSS implementations (they need not necessarily map to five distinct actual fonts). User agents should provide reasonable default choices for the generic font families, which express the characteristics of each family as well as possible within the limits allowed by the underlying technology. 
+		Fonts such as Arial and Verdana which many web designers take for granted may not be present on Linux browsers (even firefox on centOS from experience). Apple has most of the Microsoft fonts but there are some which are absent."
+
+@see http://kv5r.com/web-dev/the-new-font-family/
+@see paulirish.com/lovesyou/web-safe-fonts-cheat-sheet-v1.pdf
+
+*/
+/* Monospaced fonts
+pre, code, kbd, samp, tt{font-family:monospace,monospace; font-size:1em; } http://code.stephenmorley.org/html-and-css/fixing-browsers-broken-monospace-font-handling/
+ */
+/*
+ The keyword value normal maps to the numeric value 400 and the value bold maps to numeric value 700.
+font-weight:lighter;
+font-weight:normal;
+font-weight:bold;
+font-weight:bolder;
+
+100 Extra Light or Ultra Light
+200 Light or Thin
+300 Book or Demi
+400 Normal or Regular
+500 Medium
+600 Semibold, Demibold
+700 Bold
+800 Black, Extra Bold or Heavy
+900 Extra Black, Fat, Poster or Ultra Black
+Common fonts like Arial, Helvetica, Georgia, etc. do not have weights other than 400 and 700.
+@see https://thebittheories.com/my-font-has-gained-a-lot-of-weight-522e8bb473b7
+ */
+/*
+Curly Quotes! Use character entities so your quotation marks are curly: &ldquo; (left) &rdquo; (right)
+*/
+/*
+	Further reading
+	http://stackoverflow.com/questions/1003176/what-are-good-web-development-fonts
+	http://www.webdesigndev.com/16-gorgeous-web-safe-fonts-to-use-with-css/
+	https://www.godaddy.com/garage/smallbusiness/launch/cheat-sheet-mobile-email-design/
+*/
 /* =====Images===== */
 /*../logo.jpg*/
 /*texture.png*/
+/* =====Ornaments===== */
+/* ===== Accents ===== */
+/*@include gilded;*/
 /*structure div#loading header.card div.logo>a>img*/
 #loading {
-  background: wheat;
+  position: fixed;
+  display: none;
   z-index: 100;
   /*TODO change to absolute after techniques to remove scrollbars are height and width are base on total page height and not just viewport*/
-  position: fixed;
   width: 100%;
   height: 100%;
-  text-align: center;
-  margin: 0 auto; }
-
-.split-card {
-  display: block;
-  width: 100%;
-  max-height: 145px;
-  background: center 6% no-repeat white none;
-  text-align: center;
-  position: relative;
-  margin: 0px;
-  max-width: 600px;
-  background-size: 200%;
-  background-image: url("../logo.jpg");
-  min-width: 50%;
-  min-height: 125px;
-  left: 0%; }
-
-header.split-card {
-  background-image: none;
-  border-top-width: 2px;
-  padding-top: 0px;
-  top: 20%; }
-
-.split-card .left {
-  background-position-x: 0;
-  width: 50%;
-  /* display: inline; */
-  position: fixed;
-  margin-right: 69px; }
-
-.split-card .right {
-  background-position-x: 100%;
-  width: 50%;
-  margin-left: 50%;
-  position: relative; }
+  margin: 0 auto;
+  background: wheat;
+  text-align: center; }
 
 .card {
-  display: block;
-  width: 100%;
-  height: 145px;
-  background: center center no-repeat white url("../logo.jpg");
-  text-align: center;
-  background-size: contain;
+  border: 2px ridge #dbaf54;
+  /*@include gilded;*/
   position: relative;
   top: 50%;
   /* left: 0; */
+  display: block;
+  width: 100%;
+  width: 60vw;
+  max-width: 600px;
+  /*height: 145px;*/
+  height: 40vw;
   margin: 0px;
-  max-width: 600px; }
+  background-size: contain;
+  text-align: center;
+  outline: 2px solid #faf4f3;
+  box-shadow: 3px 2px 2px #000;
+  margin-top: 5px;
+  /*transform: skew(-30deg, 2deg);*/
+  padding-top: 5px;
+  background: #faf4f3; }
+  .card p {
+    font-family: "AR Decode", cursive;
+    font-size: 100%; }
+  .card img {
+    width: 50%; }
+  .card .logo {
+    display: none; }
+  .card .logo {
+    background: center center no-repeat white url(../logo.jpg); }
+  .card h2 {
+    position: fixed;
+    bottom: 20%;
+    left: 30%;
+    font-family: "AR Decode", Impact, fantasy, cursive;
+    font-size: 51px;
+    color: #926e19; }
+  .card h3 {
+    position: fixed;
+    bottom: 9%;
+    left: 36%;
+    font-family: "AR Decode", Impact, fantasy, cursive;
+    font-size: 51px;
+    color: #926e19; }
 
-.card img {
-  width: 50%; }
-
-.card .logo {
-  display: none; }
-
-.logo {
-  background: center center no-repeat white url(../logo.jpg); }
-
-.card h2 {
-  position: fixed;
-  bottom: 20%;
-  left: 30%;
-  font-family: "AR Decode";
-  font-size: 51px;
-  color: #926e19; }
-
-.card h3 {
-  position: fixed;
-  bottom: 9%;
-  left: 36%;
-  font-family: "AR Decode";
-  font-size: 51px;
-  color: #926e19; }
-
+/*@include split-card-style-experiment;*/
+/*aka initial cap*/
 html {
   color: #222;
   font-size: 1em;
@@ -128,7 +308,8 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  /*border-top: 1px solid #ccc;*/
+  border-top: 2px ridge #dbaf54;
   margin: 1em 0;
   padding: 0; }
 
@@ -157,12 +338,11 @@ textarea {
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
+/* 
 body {
-  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
-
-body {
-  font-family: courier; }
-
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+body { font-family: courier; } */
 #logo {
   text-align: center; }
 
@@ -173,17 +353,27 @@ body {
   width: 90%;
   margin: 0 5%; }
 
+/*@TODO animate line height of text logos to make it "mix" the letter together on scroll , give each letter different z-index to enhance the mixing effect*/
+#logo-text, #logo-animated-text {
+  font-family: fantasy;
+  font-size: 5em;
+  line-height: 0.4;
+  text-shadow: 3px 1px 0px #8BC34A;
+  text-align: center;
+  }
+
+#logo-animated-text:hover {
+  animation: jello 2s infinite;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(12deg) rotateY(1deg) rotateZ(-8deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(12deg) rotateY(1deg) rotateZ(8deg) skew(0deg, 0deg); }
+
 header {
-  border: 2px ridge #dbaf54;
-  background: #faf4f3;
-  outline: 2px solid #faf4f3;
-  box-shadow: 3px 2px 2px #000;
   margin-top: 5px;
-  transform: skew(-30deg, 2deg);
+  /*transform: skew(-15deg, 0deg);*/
   padding-top: 5px; }
 
 /* ===================
-	ALL: Orange Theme
+	ALL: hsl(39, 100%, 50%) Theme
    =================== */
 .header-container {
   box-shadow: 1px -3px 17px black; }
@@ -199,6 +389,31 @@ header {
 
 .title {
   color: #241276; }
+
+/* ==============
+	IMAGERY
+   ============== */
+/*https://css-tricks.com/clipping-masking-css/*/
+/*http://bennettfeely.com/clippy/*/
+.image-overlay {
+  transition: .45s ease-in-out;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-3deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-3deg) skew(0deg, 0deg);
+  width: 100%;
+  height: 279px;
+  display: block;
+  overflow: hidden;
+  background: wheat;
+  box-shadow: 2px 3px 8px 0px #ababab; }
+
+.image-overlay img {
+  clip-path: inset(0px 0px 0px 0px);
+  /*clip: rect(10px, 20px, 30px, 40px); only does rectangles on absolutely positioned elements*/ }
+
+.image-overlay:hover {
+  transition: .25s ease-in-out;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); }
 
 /* ==============
 	MOBILE: Menu
@@ -231,15 +446,15 @@ nav a:hover {
 .main {
   padding: 30px 0; }
 
-.main article h1 {
-  font-size: 2em; }
-
+/*.main article h1 {
+	font-size: 2em;
+}
+*/
 .main aside {
   color: #241276;
   padding: 0px 5% 10px; }
 
 .footer-container footer {
-  color: #241276;
   padding: 20px 0; }
 
 /* ===============

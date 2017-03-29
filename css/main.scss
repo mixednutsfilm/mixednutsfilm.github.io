@@ -1,5 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 @import "_TODO";
+@import url(animate.css);
 /* =====branding====== */
 	/*colors*/
 	$primary: #fe9604; /*golden-orange #{$primary}*/ 
@@ -13,7 +14,8 @@
 
 
 	/* =====links===== */
-	$link-color: #241276; /*blue #{$link-color}*/
+	//https://css-tricks.com/snippets/css/link-pseudo-classes-in-order/ Link, Visited, Hover, Active L, V, H, A LoVe, HAte
+	 $link-color: #241276; /*blue #{$link-color}*/
 	$hover: #9780ff; /*light purple #{$hover}*/
 	$visited: #9780ff; /*light purple #{$visited}*/
 
@@ -22,116 +24,28 @@
 	$selection-color: #6900d3;  /*#{$selection-color}*/
 
 	/*=====fonts=====*/
-	$body-font-family: courier;  /*#{$body-font-family}*/
-	$nav-font-family: courier;  /*#{$nav-font-family}*/
-	$headings-font-family: cursive;  /*#{$headings-font-family}*/
-	$decorative-font-family: cursive;  /*#{$decorative-font-family}*/
+	@import "_fontstack";
+
 	/* =====Images===== */
 	$logo: "../logo.jpg";  /*#{$logo}*/
 	$background-texture: 'texture.png';  /*#{$background-texture}*/
+	/* =====Ornaments===== */
 
-@mixin card-style{ 
-	header {
-		border: 2px ridge $accent;
-		background: #faf4f3;
-		outline: 2px solid #faf4f3;
-		box-shadow: 3px 2px 2px #000;
-		margin-top: 5px;
-		transform: skew(-30deg, 2deg);
-		padding-top: 5px;
-	}
-	header:hover {
-		background: #faf4f3;
-		outline: 2px solid #faf4f3;
-		box-shadow: 0 2px 5px #000;
-		margin-top: 5px;
-		padding-top: 5px;
-	}
-}
-@mixin split-card-style-experiment {
-	.split-card {
-	    display: block;
-	    width: 100%;
-	    max-height: 145px;
-	    background: center 6% no-repeat rgb(255, 255, 255) none;
-	    text-align: center;
-	    position: relative;
-	    margin: 0px;
-	    max-width: 600px;
-	    background-size: 200%;
-	    background-image: url($logo);
-	    min-width: 50%;
-	    min-height: 125px;
-	    left: 0%;
-	}
-	header.split-card {
-		background-image: none;
-		border-top-width: 2px;
-		padding-top: 0px;
-		top: 20%;
-	}
-	.split-card .left {
-		background-position-x: 0;
-		width: 50%;
-		/* display: inline; */
-		position: fixed;
-		margin-right: 69px;
-	}
-	.split-card .right {
-		background-position-x: 100%;
-		width: 50%;
-		margin-left: 50%;
-		position: relative;
-	}
-
-}
-
-/*structure div#loading header.card div.logo>a>img*/
-#loading {
-	background: wheat;
-    z-index: 100;
-     /*TODO change to absolute after techniques to remove scrollbars are height and width are base on total page height and not just viewport*/
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin: 0 auto;
- }
- @include split-card-style-experiment;
-.card {
-	display: block;
-	width: 100%;
-	height: 145px;
-	background: center center no-repeat white url($logo);
-	text-align: center;
-	background-size: contain;
-	position: relative;
-	top: 50%;
-	/* left: 0; */
-	margin: 0px;
-	max-width: 600px;
-}
-.card img { width: 50%; }
-.card .logo { display: none; }
-.logo { background: center center no-repeat white url(../logo.jpg); }
-.card h2 {
-    position: fixed;
-    bottom: 20%;
-    left: 30%;
-    font-family: "AR Decode";
-    font-size: 51px;
-    color: #926e19;
-}
-.card h3 { 
-	position: fixed;
-    bottom: 9%;
-    left: 36%;
-    font-family: "AR Decode";
-    font-size: 51px;
-    color: #926e19;
-}
-.pull-cap {
 	
+	/* ===== Accents ===== */
+	$gilded-border: 2px ridge $accent;
+
+	@mixin gilded {
+			border: $gilded-border;
+		}
+	/*@include gilded;*/
+
+	@import "_loading";
+
+
+ /*aka initial cap*/
+.drop-cap {
+
 }
 .pull-quote {
 
@@ -163,7 +77,8 @@ hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #ccc;
+	/*border-top: 1px solid #ccc;*/
+	border-top: $gilded-border;
 	margin: 1em 0;
 	padding: 0;
 }
@@ -198,29 +113,32 @@ textarea {
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
-
+/* 
 body {
 	font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
-body { font-family: courier; }
+body { font-family: courier; } */
 #logo { text-align: center; }
 #logo img { width:50%; }
 .wrapper {
 	width: 90%;
 	margin: 0 5%;
 }
+/*@TODO animate line height of text logos to make it "mix" the letter together on scroll , give each letter different z-index to enhance the mixing effect*/
+#logo-text,#logo-animated-text { font-family: $text-logo-font-family; font-size: 5em; line-height: 0.4; text-shadow: 3px 1px 0px #8BC34A; text-align: center; }
+#logo-animated-text:hover {     
+	animation: jello 2s infinite;
+	    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(12deg) rotateY(1deg) rotateZ(-8deg) skew(0deg, 0deg);
+	    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(12deg) rotateY(1deg) rotateZ(8deg) skew(0deg, 0deg);
 
+     }
 header {
-	border: 2px ridge $accent;
-	background: #faf4f3;
-	outline: 2px solid #faf4f3;
-	box-shadow: 3px 2px 2px #000;
 	margin-top: 5px;
-	transform: skew(-30deg, 2deg);
+	/*transform: skew(-15deg, 0deg);*/
 	padding-top: 5px;
 }
 /* ===================
-	ALL: Orange Theme
+	ALL: hsl(39, 100%, 50%) Theme
    =================== */
 
 .header-container {
@@ -241,7 +159,34 @@ header {
 .title {
 	color: #241276;
 }
+/* ==============
+	IMAGERY
+   ============== */
+#main-imagery {
+}
+/*https://css-tricks.com/clipping-masking-css/*/
+/*http://bennettfeely.com/clippy/*/
+.image-overlay { 
+	transition: .45s ease-in-out;
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-3deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-3deg) skew(0deg, 0deg);
 
+    width: 100%;
+	height: 279px;
+    display: block;
+    overflow: hidden;
+    background: wheat;
+    box-shadow: 2px 3px 8px 0px #ababab;
+ }
+.image-overlay img { 
+  clip-path: inset(0px 0px 0px 0px);
+  /*clip: rect(10px, 20px, 30px, 40px); only does rectangles on absolutely positioned elements*/
+}
+.image-overlay:hover { 
+	transition: .25s ease-in-out;
+	-webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+	transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+ }
 /* ==============
 	MOBILE: Menu
    ============== */
@@ -282,17 +227,16 @@ nav a:hover {
 	padding: 30px 0;
 }
 
-.main article h1 {
+/*.main article h1 {
 	font-size: 2em;
 }
-
+*/
 .main aside {
 	color: #241276;
 	padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-	color: #241276;
 	padding: 20px 0;
 }
 

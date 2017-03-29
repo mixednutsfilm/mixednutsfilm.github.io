@@ -16,6 +16,8 @@
     width: 30%;
     transform: scale(50% 50%); 
 }
+#TODO ul, #TODO ol {display: none;}
+#TODO:hover ul, #TODO:hover ol {display: none;}
 #TODO ul, #TODO ol { list-style:none; }
 #TODO ul li, #TODO ol li { width: auto; }
 

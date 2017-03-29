@@ -1,0 +1,105 @@
+/*structure div#loading header.card div.logo>a>img*/
+#loading {
+    position: fixed;
+	display:none;
+    z-index: 100;
+     /*TODO change to absolute after techniques to remove scrollbars are height and width are base on total page height and not just viewport*/
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+	background: wheat;
+    text-align: center;
+ }
+ .card {
+ 	border:  $gilded-border;
+ 	/*@include gilded;*/
+	position: relative;
+	top: 50%;
+	/* left: 0; */
+	display: block;
+	width: 100%;
+	width: 60vw;
+	max-width: 600px;
+	/*height: 145px;*/
+	height: 40vw;
+	margin: 0px;
+	background-size: contain;
+	text-align: center;
+
+	outline: 2px solid #faf4f3;
+	box-shadow: 3px 2px 2px #000;
+	margin-top: 5px;
+	/*transform: skew(-30deg, 2deg);*/
+	padding-top: 5px;
+	background: #faf4f3;
+	p { font-family: $decorative-font-family; font-size: 100%; }
+	img { width: 50%; }
+	.logo { display: none; }
+	.logo { background: center center no-repeat white url(../logo.jpg); }
+	h2 {
+	    position: fixed;
+	    bottom: 20%;
+	    left: 30%;
+	    font-family: $headings-font-family;
+	    font-size: 51px;
+	    color: #926e19;
+	}
+	h3 { 
+		position: fixed;
+	    bottom: 9%;
+	    left: 36%;
+	    font-family: $headings-font-family;
+	    font-size: 51px;
+	    color: #926e19;
+	}
+}
+ /*@include split-card-style-experiment;*/
+@mixin card-style{ 
+	header {
+
+	}
+	header:hover {
+		background: #faf4f3;
+		outline: 2px solid #faf4f3;
+		box-shadow: 0 2px 5px #000;
+		margin-top: 5px;
+		padding-top: 5px;
+	}
+}
+@mixin split-card-style-experiment {
+	.split-card {
+	    display: block;
+	    width: 100%;
+	    max-height: 145px;
+	    background: center 6% no-repeat rgb(255, 255, 255) none;
+	    text-align: center;
+	    position: relative;
+	    margin: 0px;
+	    max-width: 600px;
+	    background-size: 200%;
+	    background-image: url($logo);
+	    min-width: 50%;
+	    min-height: 125px;
+	    left: 0%;
+	}
+	header.split-card {
+		background-image: none;
+		border-top-width: 2px;
+		padding-top: 0px;
+		top: 20%;
+	}
+	.split-card .left {
+		background-position-x: 0;
+		width: 50%;
+		/* display: inline; */
+		position: fixed;
+		margin-right: 69px;
+	}
+	.split-card .right {
+		background-position-x: 100%;
+		width: 50%;
+		margin-left: 50%;
+		position: relative;
+	}
+
+}
