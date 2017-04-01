@@ -1,0 +1,63 @@
+2017-03-29 21:18 
+http://www.mcdruid.co.uk/content/cursive-font-stack
+' font: 13px/1.5em 'Comic Sans', 'Comic Sans MS', 'Chalkboard', 'ChalkboardSE-Regular', 'Marker Felt', 'Purisa', 'URW Chancery L', cursive; '
+
+Facebookpost:
+Here's a preview of verion .41 which goes back to an earlier web aesthetic by simplifying the browser technologies used
+,all for an experience to gets users interested in what they looking at.
+https://mixednutsfilm.github.io/41
+
+
+https://websitesfromhell.net
+https://www.google.com/search?q=designing+a+site+to+look+like+the+90%27s
+https://sgbwebdesign.com/design/90s-web-design/
+http://graphicdesign.stackexchange.com/questions/13968/how-to-not-make-my-website-have-a-1990s-look
+https://teamtreehouse.com/community/weekly-contest-90s-webpage
+http://www.suttonsilver.co.uk/what-were-we-thinking-web-design-trends-of-the-90s/
+https://medium.com/thewashingtonpost/the-hottest-trend-in-web-design-is-making-sites-that-look-terrible-35e775d523ce
+https://websitesfromhell.net
+
+
+#Checklist:
+- The 90's is to webdesign what Brutalism is to architecture
+-- the later years look has obvious drop shadows and beveled things/images
+- Say "Welcome to.." avoid describing what the site is actually about as much as possible
+- Site browser title bar text scrolls. http://www.htmlmarquee.com/title.html
+- site best viewed in X browser at WxH resolution , also http://www.cutcodedown.com/images/bestViewedHD.png
+- Hit counters , preferably skueomorphic like it's from a car odometer or as an LED segement display with big border. http://fakecounter.com/
+- built in search bar like from google or lycos
+- Mailbox for email contact
+- Layout over use of images - Distorted Image aspect ratios. Image to big? just squish it in.
+- Excessively long flash based splash/loading intro
+
+Content
+- Content should touch the edges, sometimes even going clipping past it
+- Frames - especially for navigation
+- "broken urls" that are the default system/theme templates, often has reminder text to replace with real content. This default template looks a lot better than the real content
+- absolutely not responsive or friendly to mobile
+Imagery
+- Animated Gifs , american flag ('made in usa' for extra zing) ,  bonus if gifs have obvious white edging or are poorly made cgi.
+- "particle effects" things like snowflakes,bubbles,glitter,ash etc moving/falling on the page https://codepen.io/romswellparian/pen/JoXoKo
+- Wallpaper backgrounds
+--viewport filling background images, very few sections have any child background hiding the main eyesore
+-- Tiled images as background
+- Clip art like 'champaigne bottle', 'pointing finger', 'mail box', or under construction (http://www.textfiles.com/underconstruction/ http://www.donotenter.com/cool/ucgraphics/) .
+-- images of doorways, "trippy" images , images of the earth, preferbly bad cgi&rotating, images of 3D primitives rotating/spinning preferbly multi colored like a rubiks cube with RGB&Y
+-- images with seperated color channels. https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2012/02/EverythingElse-520x320.jpg
+- custom mouse cursors , bonus if animated
+- Canned drop shadows applied to anything, i.e. image of a drop shadow edited onto another image not a custom drop shadow for that images content.
+Typography
+- Comic Sans text is the cliche, bad foreground&background contrast for text
+- typography has really bad kerning and line-heights
+- centered text paragraphs
+- Scrolling Marquees -  Text. http://visualidiot.com/articles/css3 , http://wigflip.com/signbot/ 
+- Blinking Text
+- text overlaying background images, avoiding any type of text flow around objects.
+- Heading text highlighted in big blocks
+- Blue hyperlinks and if there's one there should be alot of them
+- WordArt common themes fire,chrome, glittered,rainbow,balloon.
+-- Gradient text in styles like flame,chrome,rainbow
+- image based text
+
+
+

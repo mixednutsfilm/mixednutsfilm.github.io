@@ -1,0 +1,76 @@
+body { font: 13px/0.8em 'Comic Sans', 'Comic Sans MS', 'Chalkboard', 'ChalkboardSE-Regular', 'Marker Felt', 'Purisa', 'URW Chancery L', cursive; }
+body { color: pink;  text-align: center;}
+body {background: #E91E63 repeat url(wallpaper.png);}
+body * { background-color: transparent; }
+body {
+	cursor: url(916.photobucket.comusersugarycandymediacursorspinkbow3.gif.htmlsort=3&o=37_pinkbow3.gif) ,auto;
+}
+header {margin-bottom: 40%;}
+section {margin-bottom: 155px;}
+h1,h2,h3,h4,h5,h6 {background-color: #9C27B0;display: inline; line-height:1.3em }
+p { text-align: center; line-height: 0.7em }
+
+/*quick and dirty for depreciate blink tag
+http://stackoverflow.com/questions/35612785/blinking-gif-with-javascript-timer?noredirect=1&lq=1
+http://stackoverflow.com/questions/13955163/imitating-a-blink-tag-with-css3-animations
+*/
+blink, .blink{ text-decoration: blink; 
+	-webkit-animation: blinker 1s infinite;
+	-moz-animation: blinker 1s infinite;
+	-o-animation: blinker 1s infinite;
+	animation: blinker 1s infinite;
+	animation: blinker 1s steps(5, start) infinite;
+	-webkit-animation: blinker 1s steps(5, start) infinite;
+}
+@keyframes blinker {
+	-webkit-animation-name: blinker; 
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration: 1s;
+	animation-name: blinker; 
+	animation-iteration-count: infinite; 
+	animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	animation-duration: 1s;
+}
+@-webkit-keyframes blinker { from {opacity:1.0;} to {opacity:0.0;} }
+@keyframes blinker { from {opacity:1.0;} to {opacity:0.0;} }
+@-moz-keyframes blinker {  67% { opacity: 0 }}
+@-o-keyframes blinker {  67% { opacity: 0 }}
+@keyframes blinker {  67% { opacity: 0 }}
+
+.dropshadow {
+	/* box-shadow: 0px 0px 15px black; */
+	/* width: 380px; */
+	/* height:150px; */
+	/* border: solid 1px #555; */
+	/* background-color: #eed; */
+	/* box-shadow: 10px -10px  rgba(0,0,0,0.6); */
+	-moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+	/* -webkit-box-shadow: 5px 23px 20px 17px rgba(0,0,0,0.6); */
+	-o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+	border-radius: 100px;
+	position: relative;
+}
+.dropshadow:after {
+	position: absolute;
+	width: 50%;
+	height: 14%;
+	left: 25%;
+	border-radius: 44%;
+	z-index: 1;
+	bottom: 2%;
+	content: ""; 
+	box-shadow: 0px 35px 17px rgba(0, 0, 0, 0.37);
+}
+.canned.dropshadow { box-shadow: none; background-image: url(canned-dropshadow.png); }
+.bg-image { position: relative; }
+.over-image {  position:relative;   text-align: center; margin: 0 auto; display: block; text-align: center; }
+.over-image img {text-align: center;margin: 0 auto;display: block;} </style>
+#underconstruction { text-align: center; }
+#underconstruction img { text-align: center;margin: 0 auto; }
+
+footer {  }
+div#search { text-align: center; }
+#search label {display: block;text-align: center;margin: 0 auto;}
+#search img  {display: block;text-align: center;margin: 0 auto;width: 30%;}
+#search input[type="search"] {width: 20%;min-height: 30px;}
